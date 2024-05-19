@@ -4,16 +4,27 @@
   text-decoration: none;
   font-family: Nunito;
 }
+
+.wrapper {
+  margin-left: 32px;
+  margin-top: 32px;
+}
 /* header */
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 3%;
 }
 #logo {
   display: flex;
   align-items: center;
+  color: #3e3f43;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6px;
+}
+#logo span {
   color: #3e3f43;
   font-family: Nunito;
   font-size: 24px;
@@ -22,28 +33,58 @@ header {
   line-height: normal;
   letter-spacing: 6px;
 }
-#logo span {
-  margin-left: 5%;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 120px;
+  margin-left: 135px;
 }
 nav a {
   color: #612999;
   font-family: Nunito;
-  font-size: 30px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: auto 5%;
+  margin: auto 64px;
 }
 nav a:hover {
   font-weight: 700;
 }
 
+/* main */
+h1,
+h2 {
+  color: #612999;
+}
 /* home */
 #home {
-  background-image: url("../images/home_background.jpg");
+  background: url("../images/home_background.png") lightgray 50% / cover
+    no-repeat;
 }
-#home section {
-  margin: 3%;
-  width: 35%;
-  padding-bottom: 50%;
+#home h1 {
+  color: #612999;
+  font-family: Nunito;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+#home > * {
+  width: 37%;
+  padding-bottom: 50px;
+}
+/* about */
+#about div {
+}
+#about h2 {
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+#about p {
+  margin: 24px auto;
 }
