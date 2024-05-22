@@ -8,7 +8,7 @@
 .wrapper {
   margin-left: 32px;
   margin-right: 32px;
-  margin-top: 32px;
+  padding-top: 32px;
 }
 /* header */
 header {
@@ -186,5 +186,45 @@ h2 {
 
 /* footer */
 footer {
+  /* position: fixed; */
   display: block;
+  background: #efecff;
+}
+footer section {
+  margin-right: 150px;
+}
+footer #footer-links-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer ul {
+  list-style-type: none;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+footer li {
+  margin-bottom: 8px;
+}
+footer li > * {
+  color: #333;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .social-icons > * {
+  margin-right: 24px;
+}
+.copyright {
+  width: 198px;
+  height: 18px;
+  color: #333;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 50px;
+  margin-top: 16px;
 }
