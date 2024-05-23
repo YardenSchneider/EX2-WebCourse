@@ -110,6 +110,10 @@ h1 {
   fill: #efecff;
 }
 
+.card-heart-frame:hover{
+  cursor: pointer;
+}
+
 .card-heart {
   position: absolute;
   margin-top: 54px;
@@ -117,6 +121,10 @@ h1 {
   width: 23px;
   height: 20px;
   fill: #f51264;
+}
+
+.card-heart:hover{
+  cursor: pointer;
 }
 
 .card > .pen-img {
@@ -169,6 +177,10 @@ h1 {
   fill: #612999;
 }
 
+.card-cart-frame:hover{
+  cursor: pointer;
+}
+
 .card-cart {
   position: absolute;
   width: 31px;
@@ -176,6 +188,10 @@ h1 {
   margin-bottom: 45px;
   margin-right: 67px;
   fill: #efecff;
+}
+
+.card-cart:hover{
+  cursor: pointer;
 }
 
 /* footer */
