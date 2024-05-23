@@ -3,6 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Pens</title>
   </head>
@@ -13,10 +31,10 @@
         <span>Pens</span>
       </section>
       <nav>
-        <a href="index.html/#home">home</a>
+        <a href="index.html">home</a>
         <a href="#">Our pens</a>
-        <a href="index.html/#about">about</a>
-        <a href="index.html/#contact">contact</a>
+        <a href="index.html">about</a>
+        <a href="index.html">contact</a>
       </nav>
     </header>
     <main>
@@ -27,7 +45,7 @@
       </div>
       <div id="pens-list" class="wrapper">
         <h2>List of Pens</h2>
-        <ul>
+        <ul class="wrapper">
           <li>
             <svg class="rocket-frame">
               <circle cx="41" cy="41" r="41" />
@@ -126,9 +144,23 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div id="your-choice" class="wrapper">
         <h2>Your Choice</h2>
-        <form action=""></form>
+        <form class="wrapper" action="">
+          <div id="name-field">
+            <label for="#name-input">name: </label>
+            <input type="text" id="name-input" />
+          </div>
+          <div id="phone-field">
+            <label for="phone-input">phone: </label>
+            <input type="text" id="phone-input" />
+          </div>
+          <div id="email-field">
+            <label for="email-input">email: </label>
+            <input type="email" name="email" id="email-input" />
+          </div>
+          <input type="submit" value="submit" />
+        </form>
       </div>
     </main>
     <footer id="contact">
