@@ -80,8 +80,6 @@ h2 {
   padding-bottom: 50px;
 }
 /* about */
-#about div {
-}
 #about h2 {
   font-family: Rubik;
   font-size: 40px;
@@ -227,4 +225,22 @@ footer .social-icons > * {
   line-height: normal;
   padding-bottom: 50px;
   margin-top: 16px;
+}
+
+/* our pens */
+#pens-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#pens-images > img {
+  border: 4px solid #e6dbfe;
+  width: 300px;
+  height: 300px;
+  margin-right: 32px;
+  /* background: lightgray 50% / cover no-repeat; */
+}
+
+.big-img {
+  width: 388px !important;
 }
