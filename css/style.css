@@ -231,7 +231,7 @@ footer .social-icons > * {
 #pens-images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 #pens-images > img {
   border: 4px solid #e6dbfe;
@@ -243,4 +243,50 @@ footer .social-icons > * {
 
 .big-img {
   width: 388px !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#pens-list > h2 {
+  width: 275px;
+  color: #612999;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 100% */
+}
+
+#pens-list ul li {
+  position: relative;
+}
+
+#pens-list ul .rocket {
+  position: absolute;
+  margin-left: 26px;
+  margin-top: 20px;
+  width: 29px;
+  height: 43px;
+  fill: #ffffff;
+}
+
+#pens-list ul .rocket-frame {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  fill: #612999;
+}
+
+#pens-list li span {
+  position: absolute;
+  margin-left: 98px;
+  margin-top: 31px;
+  color: #000;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 58.333% */
 }
